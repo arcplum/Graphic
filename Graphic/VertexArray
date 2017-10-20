@@ -1,0 +1,33 @@
+#version 330   // Ö¸¶¨GLSL°æ±¾3.3
+
+layout(location = 0) in vec3 position;
+layout(location = 1) in vec2 texCoord;
+layout(location = 2) in vec4 color;
+
+
+out VS_OUT {
+	vec2 texCoord;
+	vec4 color;
+} outs;
+
+
+void main()
+{
+	gl_Position = vec4(position, 1);
+    outs.texCoord = texCoord;
+	outs.color = color;
+}
+
+@
+
+#version 330
+
+in VS_OUT {
+	vec2 texCoord;
+	vec4 color;
+} ins;
+
+void main()
+{
+	gl_FragColor = ins.color;
+}

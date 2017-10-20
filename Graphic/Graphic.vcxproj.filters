@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\example">
+      <UniqueIdentifier>{901a2ae2-3ee1-4d7c-ad54-0122878e0ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\helper">
+      <UniqueIdentifier>{038a5021-c80e-462b-8b71-8ab80af2e6a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreateGLContext.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiInstance.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="UseTexture.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="UseMatrix.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilTest.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendColor.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadModel.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>src\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>src\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\noteForOpenGL-master\modelLoading\AssImplLoad\camera.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>src\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>src\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>src\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="LightModel.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MultiInstance">
+      <Filter>src\example</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexArray">
+      <Filter>src\example</Filter>
+    </None>
+    <None Include="UseTexture">
+      <Filter>src\example</Filter>
+    </None>
+    <None Include="UseMatrix">
+      <Filter>src\example</Filter>
+    </None>
+    <None Include="StencilTest">
+      <Filter>src\example</Filter>
+    </None>
+    <None Include="BlendColor">
+      <Filter>src\example</Filter>
+    </None>
+    <None Include="LoadModel">
+      <Filter>src\example</Filter>
+    </None>
+    <None Include="LightModel">
+      <Filter>src\example</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

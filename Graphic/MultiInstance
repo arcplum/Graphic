@@ -1,0 +1,37 @@
+#version 330   // 指定GLSL版本3.3
+
+layout(location = 0) in vec3 position;
+layout(location = 1) in vec2 texCoord;
+layout(location = 2) in vec4 color;
+layout(location = 3) in vec2 offset;
+
+
+out VS_OUT {
+	vec2 texCoord;
+	vec4 color;
+} outs;
+
+
+void main()
+{
+	vec2 pos = position.xy * (gl_InstanceID / 10 * 0.1);
+	// gl_Position 是齐次坐标，经 model view perspective 变换得到
+	// 顶点着色器之后会进行透视除法
+	gl_Position = vec4(pos + offset, 0, 1);
+    outs.texCoord = texCoord;
+	outs.color = color;
+}
+
+@
+
+#version 330
+
+in VS_OUT {
+	vec2 texCoord;
+	vec4 color;
+} ins;
+
+void main()
+{
+	gl_FragColor = vec4(1, 1, 1, 1);
+}

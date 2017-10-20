@@ -1,0 +1,37 @@
+﻿  main.cpp
+g:\vsproject\graphic\graphic\usematrix.h(28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+g:\vsproject\graphic\graphic\usematrix.h(62): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\usematrix.h(63): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\usematrix.h(65): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\usematrix.h(66): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\usematrix.h(68): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\usematrix.h(69): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\stenciltest.h(29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+g:\vsproject\graphic\graphic\stenciltest.h(66): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\stenciltest.h(67): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\stenciltest.h(69): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\stenciltest.h(70): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\stenciltest.h(72): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\stenciltest.h(73): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\blendcolor.h(29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+g:\vsproject\graphic\graphic\blendcolor.h(66): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\blendcolor.h(67): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\blendcolor.h(69): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\blendcolor.h(70): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\blendcolor.h(72): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\blendcolor.h(73): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\loadmodel.h(31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+g:\vsproject\graphic\graphic\loadmodel.h(65): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\loadmodel.h(66): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\loadmodel.h(68): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\loadmodel.h(69): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\loadmodel.h(71): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\loadmodel.h(72): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\lightmodel.h(28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+g:\vsproject\graphic\graphic\lightmodel.h(62): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\lightmodel.h(63): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\lightmodel.h(65): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\lightmodel.h(66): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\lightmodel.h(68): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+g:\vsproject\graphic\graphic\lightmodel.h(69): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+  Graphic.vcxproj -> G:\VSProject\Graphic\Debug\Graphic.exe

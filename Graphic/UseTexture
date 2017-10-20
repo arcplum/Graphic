@@ -1,0 +1,35 @@
+#version 330   // Ö¸¶¨GLSL°æ±¾3.3
+
+layout(location = 0) in vec3 position;
+layout(location = 1) in vec2 texCoord;
+
+
+out VS_OUT {
+	vec2 texCoord;
+} outs;
+
+
+void main()
+{
+	gl_Position = vec4(position, 1);
+    outs.texCoord = texCoord;
+}
+
+@
+
+#version 330
+
+uniform sampler2D boxTexture;
+uniform sampler2D wallTexture;
+uniform float factor;
+
+in VS_OUT {
+	vec2 texCoord;
+} ins;
+
+void main()
+{
+	vec4 co1 = texture(boxTexture, ins.texCoord);
+	vec4 co2 = texture(wallTexture, ins.texCoord);
+	gl_FragColor = mix(co1, co2, factor);
+}
