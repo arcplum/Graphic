@@ -61,6 +61,9 @@
     <ClInclude Include="LightModel.h">
       <Filter>src\example</Filter>
     </ClInclude>
+    <ClInclude Include="drfg.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="MultiInstance">

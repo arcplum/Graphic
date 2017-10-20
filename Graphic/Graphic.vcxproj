@@ -72,6 +72,7 @@
     <ClInclude Include="BlendColor.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CreateGLContext.h" />
+    <ClInclude Include="drfg.h" />
     <ClInclude Include="ExampleBase.h" />
     <ClInclude Include="H:\noteForOpenGL-master\modelLoading\AssImplLoad\camera.h" />
     <ClInclude Include="LightModel.h" />
